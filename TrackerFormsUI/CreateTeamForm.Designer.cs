@@ -35,7 +35,7 @@ partial class CreateTeamForm
             this.addMemberButton = new System.Windows.Forms.Button();
             this.selectTeamMemberComboBox = new System.Windows.Forms.ComboBox();
             this.selectTeamMemberLabel = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.addNewMemberGroupBox = new System.Windows.Forms.GroupBox();
             this.cellphoneValue = new System.Windows.Forms.TextBox();
             this.createMemberButton = new System.Windows.Forms.Button();
             this.emailValue = new System.Windows.Forms.TextBox();
@@ -48,7 +48,7 @@ partial class CreateTeamForm
             this.teamMembersListBox = new System.Windows.Forms.ListBox();
             this.deleteMemberButton = new System.Windows.Forms.Button();
             this.createTeamButton = new System.Windows.Forms.Button();
-            this.groupBox1.SuspendLayout();
+            this.addNewMemberGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // teamNameValue
@@ -116,23 +116,23 @@ partial class CreateTeamForm
             this.selectTeamMemberLabel.Text = "Select Team Member";
             this.selectTeamMemberLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // groupBox1
+            // addNewMemberGroupBox
             // 
-            this.groupBox1.Controls.Add(this.cellphoneValue);
-            this.groupBox1.Controls.Add(this.createMemberButton);
-            this.groupBox1.Controls.Add(this.emailValue);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.firstNameValue);
-            this.groupBox1.Controls.Add(this.cellphoneLabel);
-            this.groupBox1.Controls.Add(this.emailLabel);
-            this.groupBox1.Controls.Add(this.lastNameValue);
-            this.groupBox1.Controls.Add(this.firstNameLabel);
-            this.groupBox1.Location = new System.Drawing.Point(50, 331);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(345, 324);
-            this.groupBox1.TabIndex = 18;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Add New Member";
+            this.addNewMemberGroupBox.Controls.Add(this.cellphoneValue);
+            this.addNewMemberGroupBox.Controls.Add(this.createMemberButton);
+            this.addNewMemberGroupBox.Controls.Add(this.emailValue);
+            this.addNewMemberGroupBox.Controls.Add(this.textBox1);
+            this.addNewMemberGroupBox.Controls.Add(this.firstNameValue);
+            this.addNewMemberGroupBox.Controls.Add(this.cellphoneLabel);
+            this.addNewMemberGroupBox.Controls.Add(this.emailLabel);
+            this.addNewMemberGroupBox.Controls.Add(this.lastNameValue);
+            this.addNewMemberGroupBox.Controls.Add(this.firstNameLabel);
+            this.addNewMemberGroupBox.Location = new System.Drawing.Point(50, 331);
+            this.addNewMemberGroupBox.Name = "addNewMemberGroupBox";
+            this.addNewMemberGroupBox.Size = new System.Drawing.Size(345, 324);
+            this.addNewMemberGroupBox.TabIndex = 18;
+            this.addNewMemberGroupBox.TabStop = false;
+            this.addNewMemberGroupBox.Text = "Add New Member";
             // 
             // cellphoneValue
             // 
@@ -273,7 +273,7 @@ partial class CreateTeamForm
             this.Controls.Add(this.createTeamButton);
             this.Controls.Add(this.deleteMemberButton);
             this.Controls.Add(this.teamMembersListBox);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.addNewMemberGroupBox);
             this.Controls.Add(this.addMemberButton);
             this.Controls.Add(this.selectTeamMemberComboBox);
             this.Controls.Add(this.selectTeamMemberLabel);
@@ -286,8 +286,8 @@ partial class CreateTeamForm
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "CreateTeamForm";
             this.Text = "Create Team";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.addNewMemberGroupBox.ResumeLayout(false);
+            this.addNewMemberGroupBox.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -301,7 +301,7 @@ partial class CreateTeamForm
     private Button addMemberButton;
     private ComboBox selectTeamMemberComboBox;
     private Label selectTeamMemberLabel;
-    private GroupBox groupBox1;
+    private GroupBox addNewMemberGroupBox;
     private TextBox cellphoneValue;
     private Button createMemberButton;
     private TextBox emailValue;
