@@ -109,6 +109,7 @@ partial class CreatePrizeForm
             this.prizeAmountValue.Name = "prizeAmountValue";
             this.prizeAmountValue.Size = new System.Drawing.Size(184, 34);
             this.prizeAmountValue.TabIndex = 12;
+            this.prizeAmountValue.Text = "0";
             // 
             // prizePercentageLabel
             // 
@@ -128,6 +129,7 @@ partial class CreatePrizeForm
             this.prizePercentageValue.Name = "prizePercentageValue";
             this.prizePercentageValue.Size = new System.Drawing.Size(184, 34);
             this.prizePercentageValue.TabIndex = 12;
+            this.prizePercentageValue.Text = "0";
             // 
             // orLabel
             // 
@@ -155,6 +157,7 @@ partial class CreatePrizeForm
             this.createPrizeButton.TabIndex = 22;
             this.createPrizeButton.Text = "Create Prize";
             this.createPrizeButton.UseVisualStyleBackColor = false;
+            this.createPrizeButton.Click += new System.EventHandler(this.CreatePrizeButton_Click);
             // 
             // CreatePrizeForm
             // 
@@ -175,7 +178,7 @@ partial class CreatePrizeForm
             this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "CreatePrizeForm";
             this.Text = "Create Prize";
             this.ResumeLayout(false);
