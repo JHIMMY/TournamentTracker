@@ -1,7 +1,7 @@
 ﻿using TrackerLibrary.Models;
 
-namespace TrackerLibrary;
-public class TextConnector : IDataConnection
+namespace TrackerLibrary.DataAccess;
+public class TextConnector : IDataConnector
 {
     // TODO - Wire up the text file creation
     /// <summary>

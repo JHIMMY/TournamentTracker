@@ -1,7 +1,7 @@
 ﻿using TrackerLibrary.Models;
 
-namespace TrackerLibrary;
-public interface IDataConnection
+namespace TrackerLibrary.DataAccess;
+public interface IDataConnector
 {
     PrizeModel CreatePrize(PrizeModel model);
 }

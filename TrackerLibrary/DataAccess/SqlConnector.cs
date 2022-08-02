@@ -1,7 +1,7 @@
 ﻿using TrackerLibrary.Models;
 
-namespace TrackerLibrary;
-public class SqlConnector : IDataConnection
+namespace TrackerLibrary.DataAccess;
+public class SqlConnector : IDataConnector
 {
     // TODO - Make the CreatePrize method actually save to the database
     /// <summary>
